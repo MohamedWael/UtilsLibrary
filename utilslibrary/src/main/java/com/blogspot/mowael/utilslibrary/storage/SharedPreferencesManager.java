@@ -30,6 +30,7 @@ public class SharedPreferencesManager {
      * @return @return SharedPreferences instance
      */
     public SharedPreferences initSharedPreferences(Context mContext, String sharedPreferencesName) {
+        initEditor(mContext);
         return prefs = mContext.getSharedPreferences(sharedPreferencesName, MODE_PRIVATE);
     }
 
@@ -54,6 +55,14 @@ public class SharedPreferencesManager {
             initSharedPreferences(mContext);
         }
         return editor = prefs.edit();
+    }
+
+    public SharedPreferences.Editor getEditor() {
+        return editor;
+    }
+
+    public SharedPreferences getPrefs() {
+        return prefs;
     }
 
     /**
