@@ -58,10 +58,16 @@ public class SharedPreferencesManager {
     }
 
     public SharedPreferences.Editor getEditor() {
+        if (editor == null) {
+            throw new NullPointerException("you have to initialize SharedPreferencesManager.initEditor(Context mContext)");
+        }
         return editor;
     }
 
     public SharedPreferences getPrefs() {
+        if (prefs == null) {
+            throw new NullPointerException("you have to initialize SharedPreferencesManager.initSharedPreferences(Context mContext)");
+        }
         return prefs;
     }
 
