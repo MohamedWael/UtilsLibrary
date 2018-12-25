@@ -1,7 +1,7 @@
 package com.blogspot.mowael.utilslibrary.adapters;
 
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by moham on 6/16/2017.
