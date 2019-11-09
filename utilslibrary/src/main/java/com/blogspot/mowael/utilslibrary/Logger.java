@@ -7,29 +7,26 @@ import android.util.Log;
  */
 
 public final class Logger {
+    public static boolean LOG_TOGGLE = true;
 
     private Logger() throws InstantiationException {
         throw new InstantiationException("This class is not for instantiation");
     }
 
     public static void d(String tag, String message) {
-        if (Config.LOG_TOGGLE)
-            Log.d(tag, getMsg(message));
+        if (LOG_TOGGLE) Log.d(tag, getMsg(message));
     }
 
     public static void e(String tag, String message) {
-        if (Config.LOG_TOGGLE)
-            Log.e(tag, getMsg(message));
+        if (LOG_TOGGLE) Log.e(tag, getMsg(message));
     }
 
     public static void i(String tag, String message) {
-        if (Config.LOG_TOGGLE)
-            Log.i(tag, getMsg(message));
+        if (LOG_TOGGLE) Log.i(tag, getMsg(message));
     }
 
     public static void w(String tag, String message) {
-        if (Config.LOG_TOGGLE)
-            Log.w(tag, getMsg(message));
+        if (LOG_TOGGLE) Log.w(tag, getMsg(message));
     }
 
     public static void d(String message) {

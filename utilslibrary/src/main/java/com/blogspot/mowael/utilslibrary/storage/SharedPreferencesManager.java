@@ -4,12 +4,11 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import static android.content.Context.MODE_PRIVATE;
-import static com.blogspot.mowael.utilslibrary.Config.SHARED_PREFERENCES_NAME;
-
 /**
  * Created by moham on 2/1/2017.
  */
 public class SharedPreferencesManager {
+    public static final String SHARED_PREFERENCES_NAME = "base";
     private static SharedPreferencesManager ourInstance;
     private SharedPreferences.Editor editor;
     private SharedPreferences prefs;
