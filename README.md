@@ -5,20 +5,20 @@ Common android utils
 
 1- Add it in your root build.gradle at the end of repositories:
 
-```
+<pre>
 allprojects {
     repositories {
         ...
-        maven { url 'https://jitpack.io' }
+        <b>maven { url 'https://jitpack.io' }
     }
 }
-```
+</pre>
 
 2- Add the dependency
 
-```
+<pre>
 dependencies {
     ...
-    implementation 'com.github.MohamedWael:UtilsLibrary:1.0.0'
+    <b>implementation 'com.github.MohamedWael:UtilsLibrary:1.0.0'
 }
-```
+</pre>
