@@ -1,4 +1,5 @@
-# UtilsLibrary
+# UtilsLibrary [![](https://jitpack.io/v/MohamedWael/UtilsLibrary.svg)](https://jitpack.io/#MohamedWael/UtilsLibrary)
+
 Common android utils
 
 ## Integration
