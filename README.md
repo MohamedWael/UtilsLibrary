@@ -9,7 +9,7 @@ Common android utils
 allprojects {
     repositories {
         ...
-        <b>maven { url 'https://jitpack.io' }
+        <b>maven { url 'https://jitpack.io' }</b>
     }
 }
 </pre>
@@ -19,6 +19,6 @@ allprojects {
 <pre>
 dependencies {
     ...
-    <b>implementation 'com.github.MohamedWael:UtilsLibrary:1.0.0'
+    <b>implementation 'com.github.MohamedWael:UtilsLibrary:1.0.0'</b>
 }
 </pre>
