@@ -20,6 +20,6 @@ allprojects {
 <pre>
 dependencies {
     ...
-    <b>implementation 'com.github.MohamedWael:UtilsLibrary:1.0.0'</b>
+    <b>implementation 'com.github.MohamedWael:UtilsLibrary:1.0.1'</b>
 }
 </pre>
