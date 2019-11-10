@@ -1,4 +1,7 @@
-# UtilsLibrary [![](https://jitpack.io/v/MohamedWael/UtilsLibrary.svg)](https://jitpack.io/#MohamedWael/UtilsLibrary)
+# UtilsLibrary 
+
+[![CircleCI](https://circleci.com/gh/MohamedWael/UtilsLibrary/tree/master.svg?style=svg)](https://circleci.com/gh/MohamedWael/UtilsLibrary/tree/master) 
+[![](https://jitpack.io/v/MohamedWael/UtilsLibrary.svg)](https://jitpack.io/#MohamedWael/UtilsLibrary)
 
 Common android utils
 
