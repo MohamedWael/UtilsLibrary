@@ -2,11 +2,11 @@ package com.blogspot.mowael.utilslibrary.storage.securedprefs
 
 import android.content.Context
 
-val sharedPrefrencesName = "prefs"
+var sharedPreferencesName = "prefs"
 
 class SharedPrefs(context: Context) : AbstractSharedPrefs {
 
-    private val prefs by lazy { context.getSharedPreferences(if (sharedPrefrencesName.isEmpty()) context.packageName else sharedPrefrencesName, Context.MODE_PRIVATE) }
+    private val prefs by lazy { context.getSharedPreferences(if (sharedPreferencesName.isEmpty()) context.packageName else sharedPreferencesName, Context.MODE_PRIVATE) }
 
     override fun putString(key: String, value: String?) = prefs.putString(key, value)
 
